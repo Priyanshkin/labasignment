@@ -1,0 +1,12 @@
+number=[1,24,5,6,4,3,5,6]
+swap=number[0]
+number[0]=number[7]
+number[7]=swap
+print(number)
+swap=number[1]
+one=number[2]
+number[1]=number[4]
+number[4]=swap
+number[2]=number[3]
+number[3]=one
+print(number)

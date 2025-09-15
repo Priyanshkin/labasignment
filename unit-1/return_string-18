@@ -1,0 +1,11 @@
+a=int(input("enter a three number"))
+b=int(input("enter a three number"))
+c=int(input("enter a three number"))
+def input():
+ sum=0
+ if ((a==b and a==c) and ( b==c )):
+    sum=a+b+c
+    t=str(sum)
+    print(t)
+ return t*3
+print(input())
